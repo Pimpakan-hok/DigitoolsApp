@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DigitoolsApp</string>
+    <string name="Home">หน้าแรก</string>
+    <string name="History">ประวัติการยืม</string>
+    <string name="Checkst">เช็คสถานะการยืม</string>
+    <string name="Rules">กฎการยืม</string>
+    <string name="Profile">โปรไฟล์</string>
+    <string name="Blog">ข่าว/ประชาสัมพันธ์</string>
+    <string name="Map">แผนที่อาคาร</string>
+    <string name="Logout">ออกจากระบบ</string>
+    <string name="Noti">แจ้งเตือน</string>
+    <string name="back">กลับ</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

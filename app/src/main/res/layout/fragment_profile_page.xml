@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgsplash"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfilePage">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="283dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_corner"
+                android:elevation="22dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/layoutToolBar"
+                app:layout_constraintVertical_bias="0.401">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/kanitregular"
+                    android:text="รหัส"
+                    android:id="@+id/uid"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/kanitregular"
+                    android:text="ชื่อ"
+                    android:id="@+id/prouser"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_qr"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="100dp"
+                    android:layout_marginTop="-110dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginBottom="0dp"
+                    android:adjustViewBounds="true"
+                    android:padding="3dp"
+                    android:scaleType="centerInside" />
+
+                <Button
+                    android:id="@+id/bt_generate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginLeft="85dp"
+                    android:layout_marginTop="0dp"
+                    android:backgroundTint="@color/digibluesky"
+                    android:fontFamily="@font/kanitregular"
+                    android:onClick="login"
+                    android:text="QRCODE"
+                    android:textSize="18sp"
+                    app:cornerRadius="20dp" />
+                <Button
+                    android:id="@+id/btn_scan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="92dp"
+                    android:layout_marginLeft="86dp"
+                    android:layout_marginTop="0dp"
+                    android:backgroundTint="@color/digibluesky"
+                    android:fontFamily="@font/kanitregular"
+                    android:text="Scan"
+                    android:textSize="18sp"
+                    app:cornerRadius="20dp" />
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="340dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:id="@+id/linearLayout2"
+        android:background="@drawable/rounded_corner"
+        android:elevation="22dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutToolBar"
+        app:layout_constraintVertical_bias="0.401">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_baseline_email_24"
+                />
+            <TextView
+                android:id="@+id/email"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/kanitregular"
+                android:textSize="18sp"
+                android:text="Wiliam@gmail.com"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_baseline_phone_24"
+
+                />
+            <TextView
+                android:id="@+id/phonepn"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:fontFamily="@font/kanitregular"
+                android:textSize="18sp"
+                android:text="+266 225 225"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/book"
+               />
+            <TextView
+                android:textStyle="bold"
+                android:fontFamily="@font/kanitregular"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="สำนักวิชาศาสตร์และศิลป์ดิจิทัล"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/group"
+               />
+
+            <TextView
+                android:id="@+id/kana"
+                android:textStyle="bold"
+                android:fontFamily="@font/kanitregular"
+                android:textSize="18sp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="ปริญญาตรี คลังหน่วยกิต"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:id="@+id/Logout"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="35dp"
+            android:backgroundTint="@color/digibluesky"
+            android:onClick="logout"
+            android:textSize="18sp"
+            android:fontFamily="@font/kanitregular"
+            app:cornerRadius="20dp"
+            android:text="ออกจากระบบ"/>
+    </LinearLayout>
+
+
+</FrameLayout>

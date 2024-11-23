@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@+id/Home">
+
+    <fragment
+        android:id="@+id/Blog"
+        android:fontFamily="@font/kanitregular"
+        android:name="com.example.digitoolsapp.PostPage"
+        android:label="ข่าวสาร"
+        tools:layout="@layout/fragment_post_page" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/Home"
+        android:fontFamily="@font/kanitregular"
+        android:name="com.example.digitoolsapp.HomePage"
+        android:label="หน้าแรก"
+        tools:layout="@layout/fragment_home_page" >
+
+    </fragment>
+    <fragment
+        android:id="@+id/Checkst"
+        android:name="com.example.digitoolsapp.CheckStatusPage"
+        android:label="เช็คสถานะ"
+        android:fontFamily="@font/kanitregular"
+        tools:layout="@layout/fragment_check_status_page" />
+
+    <fragment
+        android:id="@+id/Profile"
+        android:fontFamily="@font/kanitregular"
+        android:name="com.example.digitoolsapp.ProfilePage"
+        android:label="โปรไฟล์"
+        tools:layout="@layout/fragment_profile_page" />
+    <activity
+        android:id="@+id/mapsActivity"
+        android:fontFamily="@font/kanitregular"
+        android:name="com.example.digitoolsapp.MapsActivity"
+        android:label="แผนที่"
+        tools:layout="@layout/activity_maps" />
+
+</navigation>

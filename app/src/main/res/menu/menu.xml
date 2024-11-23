@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/Home"
+        android:title="@string/Home"
+        android:fontFamily="@font/kanitregular"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+
+    <item
+        android:id="@+id/Checkst"
+        android:title="@string/Checkst"
+        android:fontFamily="@font/kanitregular"
+        android:icon="@drawable/sandclocl"
+
+        />
+    <item
+        android:id="@+id/Blog"
+        android:title="@string/Blog"
+        android:fontFamily="@font/kanitregular"
+        android:icon="@drawable/news"
+
+        />
+    <item
+        android:id="@+id/mapsActivity"
+        android:fontFamily="@font/kanitregular"
+        android:icon="@drawable/ic_baseline_location_on_24"
+
+        android:title="แผนที่"
+        />
+    <item
+        android:id="@+id/Profile"
+        android:fontFamily="@font/kanitregular"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="โปรไฟล์"
+        />
+    <!--    <item-->
+    <!--        android:icon="@drawable/logout"-->
+    <!--        android:id="@+id/Logout"-->
+    <!--        android:title="@string/Logout"-->
+    <!--        />-->
+</menu>

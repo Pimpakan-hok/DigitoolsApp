@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "666464790368",
+    "project_id": "notificationtest-8b1d2",
+    "storage_bucket": "notificationtest-8b1d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666464790368:android:e7c4760464800e6d0ba005",
+        "android_client_info": {
+          "package_name": "com.example.digitoolsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666464790368-v0adttsduppi3hr7ne128copuua9k1er.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.digitoolsapp",
+            "certificate_hash": "773214eb68d3632192886afd13c9f00c21ad191f"
+          }
+        },
+        {
+          "client_id": "666464790368-232fklsfv1np5as9m8mnja6hb025dr96.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKFXn6-PMNse8O2spUx4kCsZ0gS2_RjNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "666464790368-232fklsfv1np5as9m8mnja6hb025dr96.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
